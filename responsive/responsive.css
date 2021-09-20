@@ -1,0 +1,200 @@
+@media only screen and (max-width: 768px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    }
+
+/*--------------------------------------
+header
+---------------------------------------*/
+
+  .header-contents ul {
+    justify-content: space-between;
+  }
+
+  .header-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+  }
+
+/*=================================================
+top-wrapper
+==================================================*/
+
+  #top-wrapper {
+    height: 500px;
+  }
+  
+  .top-title {
+    padding: 20px;
+    width: 70%;
+  }
+
+  .top-title h1 {
+    font-size: 25px;
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .top-title h2 {
+    font-size: 25px;
+  }
+
+  .scrolldown4 span{
+    font-size: 1rem;
+  }
+
+  .scrolldown4:before { 
+    right: -3px;
+    height: 10px;
+  }
+
+  .scrolldown4:after{
+    height: 40px;
+  }
+
+/*------------------------------------------------------
+works-wrapper
+------------------------------------------------------*/
+
+  .contents {
+    width: 80%;
+  }
+
+  .contentsText {
+    top: 50px;
+  }
+
+  .contents img {
+    width: 60%;
+    height: 250px;
+  }
+
+  .contents h2 {
+    font-size: 20px;
+  }
+
+  .contents p {
+    font-size: 10px;
+    padding: initial;
+    padding: 0 20px 10px 20px;
+    line-height: 1.5;
+  }
+
+  
+  .contents li:not(:first-of-type) {
+    margin-top: initial;
+    margin-top: 50px;
+  }
+
+  .contents li {
+    margin-top: 20px;
+  }
+
+
+  .btn {
+    max-width: 400px;
+    margin-bottom: initial;
+    margin-bottom: 50px;
+  }
+
+  a.btn_10 span {
+    height: 40px;
+    font-size: 15px;
+  }
+
+  a.btn_10:hover span {
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+  }
+/*----------------------------------------
+共通
+----------------------------------------*/
+  .section-title {
+    padding: initial;
+    padding: 30px 0;
+  }
+  .section-title h1{
+    font-size: 20px;
+  }
+  .section-title h2{
+    font-size: 15px;
+    padding-top: initial;
+  }
+/*=================================================
+about-wrapper
+==================================================*/
+
+  .about-contents {
+    width: 80%;
+  }
+  .about-coment {
+    width: 100%;
+  }
+
+  .coment-item h3 {
+    font-size: 16px;
+  }
+
+  .coment-item p {
+    font-size: 12px;
+
+  }
+
+/*=================================================
+service-wrapper
+==================================================*/
+  .service-contents {
+    width: 80%;
+  }
+  .service-item {
+    width: 49%;
+    padding: initial;
+    padding: 20px 20px;
+  }
+
+  .service-item h1 {
+    padding: initial;
+    font-size: 15px;
+  }
+  .service-item p {
+    font-size: 13px;
+    padding: initial;
+    line-height: 18px;
+  }
+
+  .fas,.far {
+    font-size: 50px;
+    padding: initial;
+    padding: 20px;
+  }
+
+/*=================================================
+contact-wrapper
+==================================================*/
+  .contact-top {
+    font-size: 12px;
+  }
+
+  a.btn_11 {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  a.btn_11 span {
+    height: 50px;
+    font-size: 15px;
+  }
+
+/*=================================================
+workspage-wrapper
+==================================================*/
+
+  .workspage-contents a {
+    width: 99%;
+  }
+}
